@@ -1,0 +1,47 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: #ffffff;
+} /*
+"Times New Roman",
+Times,
+serif 
+
+"Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif
+
+*/
+* {
+  box-sizing: border-box;
+}
+
+.info,
+#vertical {
+  width: 75%;
+  float: left;
+  position: absolute;
+  border-left: 1.3px solid black;
+  left: 25%;
+  padding: 17px;
+  font-size: x-small;
+}
+
+.contact {
+  width: 24.6%;
+  height: 100%;
+  float: left;
+  padding: 25px;
+
+  font-size: small;
+}
+
+.name {
+  color: #5db6d6;
+}
+
+ul,
+.contactD {
+  font-style: italic;
+}
+
+/* .contact {
+  text-align: right;
+} */
