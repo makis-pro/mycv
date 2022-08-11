@@ -1,25 +1,32 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", "sans-serif";
+  font-family: "Georgia, 'Times New Roman', Times, serif";
   background-color: #ffffff;
+  font-size: 1.2rem;
+  padding: 1rem 1.3rem 1.5rem ;
 } 
 
-.aboutSandra {
-  position: absolute;
-  border-left: 1.5px solid black;
-  left: 30%;
-  padding: 17px;
+.contact {
+  float: right;
+  margin-left: 11rem;
+  padding: 0 0 2rem;
+  line-height: 1.7rem;
 }
 
-.contact {
-  width: 24.6%;
-  height: 100%;
-  float: left;
-  padding: 25px;
-  text-align: right;
+.pics{
+  width: 40%;
+  border-radius: 100%;
+  border: 5px solid whitesmoke;
+}
+
+main{
+  line-height: 30px;
+  padding: 0 .5rem;
 }
 
 .fullName {
@@ -28,5 +35,47 @@ body {
 
 .contactInfo {
   font-style: italic;
-  line-height: 2rem;
+  line-height: 30px;
+}
+
+@media (min-width: 768px) {
+  body {
+    padding: 1rem 2rem ;
+  } 
+
+  .contact {
+    float: left;
+    line-height: 1.7rem;
+    padding-right: 1rem ;
+    padding-top: 3rem;
+    margin-left: -1.2rem;
+  }
+
+  .aboutSandra {
+    position: absolute;
+    border-left: 1.5px solid black;
+    left: 32%;
+    padding: 1rem 1rem 1rem 2rem;
+  }
+}
+
+@media (min-width: 1000px) {
+  body {
+    padding: 1rem 2rem ;
+  } 
+
+  .contact {
+    float: left;
+    line-height: 1.7rem;
+    padding-right: 1rem ;
+    padding-top: 3rem;
+    /* margin-left: -1.8rem; */
+  }
+
+  .aboutSandra {
+    position: absolute;
+    border-left: 1.5px solid black;
+    left: 31%;
+    padding: 1rem 1rem 1rem 2rem;
+  }
 }
