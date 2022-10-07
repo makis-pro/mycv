@@ -38,6 +38,33 @@ main{
   line-height: 30px;
 }
 
+/* SOCIALS  */
+
+section.socials{
+  padding: 1.5rem 0;
+}
+
+section.socials .fa{
+  padding: .5rem 5px;
+  font-size: 1.5rem;
+}
+
+.fa-github{
+  color: black;
+}
+
+.fa-twitter{
+  color: #00acee;
+}
+
+.fa-linkedin{
+  color: #0e76a8;
+}
+
+.fa:hover {
+  opacity: 0.8;
+}
+
 @media (min-width: 768px) {
   body {
     padding: 1rem 2rem ;
