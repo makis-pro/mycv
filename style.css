@@ -86,7 +86,7 @@ section.socials .fa{
   
   .contact {
     line-height: 1.7rem;
-    margin-left: -1rem;
+    margin-left: -.5rem;
     border: none;
   }
 
@@ -126,7 +126,7 @@ section.socials .fa{
 
   .aboutSandra {
     position: absolute;
-    left: 20%;
+    left: 15%;
     padding: 1rem 1rem 1rem 2rem;
     border-left: 1px solid black;
   }
