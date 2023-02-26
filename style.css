@@ -16,6 +16,7 @@ body {
   margin-left: 11rem;
   padding: 0 0 2rem;
   line-height: 1.7rem;
+  border-right: 2px solid #5db6d6;
 }
 
 .pics{
@@ -38,6 +39,7 @@ main{
   line-height: 30px;
 }
 
+
 /* SOCIALS  */
 
 section.socials{
@@ -46,7 +48,7 @@ section.socials{
 
 section.socials .fa{
   padding: .5rem 5px;
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
 .fa-github{
@@ -61,31 +63,46 @@ section.socials .fa{
   color: #0e76a8;
 }
 
+.fa-whatsapp{
+  color: yellowgreen;
+}
+
 .fa:hover {
   opacity: 0.8;
 }
+
+
+/* ==== MEDIA QUERY ====  */
 
 @media (min-width: 768px) {
   body {
     padding: 1rem 2rem ;
   } 
-
+  
   .contact {
-    float: left;
     line-height: 1.7rem;
-    padding-right: 1rem ;
-    padding-top: 3rem;
-    margin-left: -1.2rem;
+    margin-left: -1rem;
+    border: none;
   }
 
   .aboutSandra {
-    position: absolute;
-    border-left: 1.5px solid black;
-    left: 32%;
     padding: 1rem 1rem 1rem 2rem;
+  }
+
+  section.all-grouped{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  section.experience, 
+  section.education-training{
+    width: 50%;
+    height: 100%;
   }
 }
 
+/* ==== MEDIA >= 1000PX ==== */
 @media (min-width: 1000px) {
   body {
     padding: 1rem 2rem ;
@@ -100,8 +117,8 @@ section.socials .fa{
 
   .aboutSandra {
     position: absolute;
-    border-left: 1.5px solid black;
-    left: 31%;
+    left: 20%;
     padding: 1rem 1rem 1rem 2rem;
+    border-left: 1px solid black;
   }
 }
