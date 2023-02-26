@@ -39,6 +39,11 @@ main{
   line-height: 30px;
 }
 
+/* LANGUAGES  */
+section.languages{
+  padding-top: 10px;
+}
+
 
 /* SOCIALS  */
 
@@ -95,9 +100,13 @@ section.socials .fa{
     align-items: flex-start;
   }
 
-  section.experience, 
   section.education-training{
     width: 50%;
+    height: 100%;
+  }
+
+  section.experience{
+    width: 45%;
     height: 100%;
   }
 }
