@@ -36,7 +36,8 @@ main{
 
 .contactInfo {
   font-style: italic;
-  line-height: 30px;
+  line-height: 25px;
+  font-size: 12px;
 }
 
 /* LANGUAGES  */
@@ -79,6 +80,7 @@ section.socials .fa{
 
 
 /* ==== MEDIA QUERY ====  */
+/* ==== MEDIA QUERY >= 768PX ==== */
 
 @media (min-width: 768px) {
   body {
@@ -87,13 +89,14 @@ section.socials .fa{
   
   .contact {
     line-height: 1.7rem;
-    margin-left: -.5rem;
+    margin-left: 2rem;
     border: none;
   }
 
   .aboutSandra {
-    padding: .5rem 1rem 1rem 30rem;
+    padding: .5rem 1rem 1rem 3rem;
     height: 20%;
+    width: 80%;
   }
 
   section.all-grouped{
@@ -113,6 +116,15 @@ section.socials .fa{
   }
 }
 
+
+/* ==== MEDIA QUERY >= 820PX ==== */
+@media screen and (min-width:820px ) {
+  .contact{
+    margin-left: 2rem;
+  }
+}
+
+
 /* ==== MEDIA >= 1000PX ==== */
 @media (min-width: 1000px) {
   body {
@@ -121,9 +133,9 @@ section.socials .fa{
 
   .contact {
     float: left;
-    line-height: 1.7rem;
     padding-right: 1rem ;
-    padding-top: 3rem;
+    padding-top: 2rem;
+    margin-left: -1rem;
   }
 
   .aboutSandra {
