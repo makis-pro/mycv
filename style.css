@@ -8,7 +8,7 @@ body {
   font-family: "Georgia, 'Times New Roman', Times, serif";
   background-color: #ffffff;
   font-size: 1rem;
-  padding: 1rem 1.3rem 1.5rem ;
+  padding: 1rem 1.3rem 1.5rem;
 } 
 
 .contact {
@@ -48,11 +48,12 @@ section.languages{
 /* SOCIALS  */
 
 section.socials{
-  padding: 1.5rem 0;
+  padding: .5rem 0;
+  margin-left: -.3rem;
 }
 
 section.socials .fa{
-  padding: .5rem 5px;
+  padding: .5rem 3px;
   font-size: 1rem;
 }
 
@@ -91,7 +92,8 @@ section.socials .fa{
   }
 
   .aboutSandra {
-    padding: 1rem 1rem 1rem 2rem;
+    padding: .5rem 1rem 1rem 30rem;
+    height: 20%;
   }
 
   section.all-grouped{
