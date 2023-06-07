@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\Doggo"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "CV page"
+  }
+}
