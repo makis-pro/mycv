@@ -9,7 +9,6 @@ body {
   background-color: #ffffff;
   font-size: 1rem;
   padding: 1rem 1.3rem 1.5rem;
-  /* background-color: rgb(245, 245, 235); */
   padding: 15px;
 }
 
@@ -31,6 +30,11 @@ body {
 
 main {
   line-height: 30px;
+}
+
+span .cv--span {
+  margin-top: 3px;
+  cursor: pointer;
 }
 
 /* SOCIALS  */
